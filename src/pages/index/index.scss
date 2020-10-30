@@ -1,0 +1,26 @@
+.photo-list {
+    .photo-item {
+        float: left;
+        width: 49%;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        background: limegreen;
+        color: #fff;
+        padding: 15px;
+        display: inline-block;
+        margin-bottom: 5px;
+        .img-wrap {
+            height: 300px;
+            border: 1px solid #E7E7E7;
+            overflow: hidden;
+            .img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .description {
+            font-size: 28px;
+            height: 100px;
+        }
+    }
+}
